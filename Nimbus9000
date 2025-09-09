@@ -44,6 +44,9 @@ while true; do
                 ip address
             fi
 
+# Simple ping with 1 second wait time and status confirmation.
+# NMAP command will be updated in the future
+
             echo "Step 2: == Ping host =="
             read -p "Enter host to ping: " host
             read -p "Enter number of pings: " count
