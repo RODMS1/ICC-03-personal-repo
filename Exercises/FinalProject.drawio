@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="Page-1" id="yPqAhtZrf5h_x32DWpKi">
+    <mxGraphModel dx="1906" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-42" edge="1" parent="1" source="IkMC0L7i8MCnuVZug6a4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="IkMC0L7i8MCnuVZug6a4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-4" parent="1" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="70" width="78" x="171" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="INFECTED MACHINE: 10.0.0.219&lt;br&gt;&lt;br&gt;PORTS: 22" vertex="1">
+          <mxGeometry height="40" width="220" x="100" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-6" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folders;" value="" vertex="1">
+          <mxGeometry height="25.5" width="30" x="195" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-8" parent="1" style="whiteSpace=wrap;html=1;" value="FILE - RDP-SETTINGS: HASH (Admin:4d8b4d6e78c7a1679bcf58b4e37ff35f623c2b56)&lt;br&gt;&lt;br&gt;DIR (SNAP) - AMZON-SSM-AGENT&lt;br&gt;METASPLOIT-FRAMEWORK" vertex="1">
+          <mxGeometry height="75" width="300" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-10" parent="1" style="shape=mxgraph.cisco.computers_and_peripherals.sun_workstation;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="67" width="85" x="534.61" y="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="310" as="sourcePoint" />
+            <mxPoint x="520" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="920" as="sourcePoint" />
+            <mxPoint x="520" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="310" as="sourcePoint" />
+            <mxPoint x="520" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Computer&lt;br&gt;10.0.0.40&lt;br&gt;OS : WIndows 10&lt;br&gt;&lt;br&gt;PORTS: 21 , 135, 139, 445&lt;br&gt;3389, 5357" vertex="1">
+          <mxGeometry height="80" width="190" x="640" y="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="IkMC0L7i8MCnuVZug6a4-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="50" />
+            </Array>
+            <mxPoint x="820" y="50" as="sourcePoint" />
+            <mxPoint x="960" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PORT 21 FTP - CVE-2021-41773: Path Traversal &amp;amp; RCE" vertex="1">
+          <mxGeometry height="80" width="210" x="970" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-37" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" value="" vertex="1">
+          <mxGeometry height="84.5" width="64.22" x="542.5" y="195.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Web Server&lt;br&gt;10.0.0.56&lt;div&gt;OS : Apache HTTP 2.4.49&lt;/div&gt;&lt;div&gt;PORTS: 22, 80, 3306&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="192.5" x="640" y="195.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-44" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" value="" vertex="1">
+          <mxGeometry height="100" width="80" x="534.61" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Domain Controler&lt;div&gt;10.0.0.83&lt;/div&gt;&lt;div&gt;OS : Windows Server&lt;br&gt;&lt;br&gt;PORTS: 53, 88, 135, 139, 389, 445, 464, 593, 636, 3268, 3269, 3389, 5357, 5985&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DNS Domain: corp.org&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="190" x="640" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-46" parent="1" style="shape=mxgraph.cisco.computers_and_peripherals.sun_workstation;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="67" width="85" x="534.61" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMC0L7i8MCnuVZug6a4-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="10.0.0.101&lt;br&gt;OS : Ubuntu&lt;div&gt;&lt;br&gt;PORTS : 22&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="190" x="640" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
