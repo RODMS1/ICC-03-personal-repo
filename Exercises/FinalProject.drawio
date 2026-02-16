@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="Page-1" id="yPqAhtZrf5h_x32DWpKi">
     <mxGraphModel dx="1906" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -40,6 +40,11 @@
             <mxPoint x="980" y="79.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="M8SPQNXpAGdH-lT3miBN-2" edge="1" parent="1" source="IkMC0L7i8MCnuVZug6a4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IkMC0L7i8MCnuVZug6a4-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Apache 2.4.49&lt;/b&gt;&lt;br&gt;&lt;b&gt;CVE-2021-41773 - &lt;/b&gt;Path traversal and file disclosure&lt;br&gt;&lt;b&gt;CVE-2021-42013 -&amp;nbsp;&lt;/b&gt;Remote Code Execution (RCE)" vertex="1">
           <mxGeometry height="80" width="230" x="920" y="210" as="geometry" />
         </mxCell>
@@ -62,7 +67,7 @@
           <mxGeometry height="130" width="190" x="640" y="580" as="geometry" />
         </mxCell>
         <mxCell id="SqRONHTn10LmTMKsIJgQ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FILE Found - RDP-SETTINGS: HASH (Admin:4d8b4d6e78c7a1679bcf58b4e37ff35f623c2b56)" vertex="1">
-          <mxGeometry height="60" width="310" x="1250" y="50" as="geometry" />
+          <mxGeometry height="60" width="310" x="1200" y="51.75" as="geometry" />
         </mxCell>
         <mxCell id="SqRONHTn10LmTMKsIJgQ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="INFECTED MACHINE: 10.0.0.219&lt;br&gt;&lt;br&gt;PORTS: 22&lt;br&gt;&lt;br&gt;DIR (SNAP) - AMZON-SSM-AGENT&lt;br&gt;METASPLOIT-FRAMEWORK" vertex="1">
           <mxGeometry height="100" width="220" x="100" y="380" as="geometry" />
@@ -73,16 +78,16 @@
         <mxCell id="SqRONHTn10LmTMKsIJgQ-9" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" value="" vertex="1">
           <mxGeometry height="105" width="79.8" x="545" y="775" as="geometry" />
         </mxCell>
-        <mxCell id="SqRONHTn10LmTMKsIJgQ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;PORT 21 : FTP Access&lt;/b&gt;&lt;div&gt;CWE-522: Insufficiently Protected Credentials&lt;br&gt;CWE-284: Improper Access Control&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="230" x="920" y="15" as="geometry" />
+        <mxCell id="SqRONHTn10LmTMKsIJgQ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;br&gt;&lt;br&gt;PORT 21 : FTP Access&lt;/b&gt;&lt;div&gt;CWE-522: Insufficiently Protected Credentials&lt;br&gt;CWE-284: Improper Access Control&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="230" x="920" y="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="SqRONHTn10LmTMKsIJgQ-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+        <mxCell id="SqRONHTn10LmTMKsIJgQ-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="1150" y="81.13" />
             </Array>
             <mxPoint x="1150" y="81.13" as="sourcePoint" />
-            <mxPoint x="1250" y="78.88" as="targetPoint" />
+            <mxPoint x="1200" y="79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SqRONHTn10LmTMKsIJgQ-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IkMC0L7i8MCnuVZug6a4-32" value="">
@@ -98,7 +103,16 @@
           <mxGeometry height="370" width="560" x="530" y="350" as="geometry" />
         </mxCell>
         <mxCell id="TvwTXIu9DHc2olNlettm-3" parent="TvwTXIu9DHc2olNlettm-2" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;DOMAIN : CORP.ORG&lt;/b&gt;" vertex="1">
-          <mxGeometry height="120" width="200" x="350" y="140" as="geometry" />
+          <mxGeometry height="30" width="200" x="340" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="M8SPQNXpAGdH-lT3miBN-11" parent="TvwTXIu9DHc2olNlettm-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Domain Controller Access with &lt;b&gt;LSASS Credential Dump&lt;/b&gt;. Multiple machines used.&lt;br&gt;Administrator password : Password123!" vertex="1">
+          <mxGeometry height="120" width="200" x="340" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M8SPQNXpAGdH-lT3miBN-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RCE with no privilege escalation" vertex="1">
+          <mxGeometry height="60" width="310" x="1200" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="M8SPQNXpAGdH-lT3miBN-21" edge="1" parent="1" source="M8SPQNXpAGdH-lT3miBN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.988;entryY=0.636;entryDx=0;entryDy=0;entryPerimeter=0;" target="IkMC0L7i8MCnuVZug6a4-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
